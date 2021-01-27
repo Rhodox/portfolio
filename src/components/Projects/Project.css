@@ -1,0 +1,52 @@
+.proj-container {
+  font-family: var(--subheader-font);
+  font-style: normal;
+
+  padding-bottom: 40vw;
+}
+
+/* .proj-header {
+  font-size: 12vw;
+  font-weight: 700;
+  line-height: 14vw;
+  letter-spacing: -8px;
+  margin-bottom: 40px;
+} */
+
+.proj-preview {
+  border-radius: 10px;
+}
+
+.proj-prev-header {
+}
+
+.proj-prev-date {
+}
+
+.proj-prev-description {
+}
+
+.proj-prev-tech {
+}
+
+.proj-prev-date {
+  font-weight: 300;
+}
+
+.proj-container hr {
+  margin: 20px -10px;
+}
+
+.proj-container a {
+  width: 100px;
+
+  padding: 10px;
+
+  font-size: 2em;
+  text-decoration: none;
+
+  text-align: center;
+  justify-content: space-around;
+
+  color: black;
+}

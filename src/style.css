@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,900;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
+
+:root {
+  --main-font: "Charmonman", cursive;
+  --subheader-font: "Chivo", sans-serif;
+  --paragraph-font: "Domine", serif;
+
+  --main-font-color: #f0dab3;
+  --main-bg-color: #06090c;
+  --main-detail-color: #202d36;
+
+  --lighter-bg: #fffdf9;
+  --darker-bg: #020203;
+
+  --test: 1px solid red;
+
+  --article-bg-alt1: #161f2a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--main-font-color);
+  background-color: var(--main-bg-color);
+
+  overflow-x: hidden;
+}
+
+.paragraph {
+  padding: 0 5vw 25vw 5vw;
+}
+
+.title {
+  font-family: var(--subheader-font);
+
+  font-size: 9vw;
+  font-weight: 700;
+  text-align: center;
+  line-height: 12vw;
+
+  padding: 0;
+  margin: 0 0 10vw 0;
+}
+
+.filler {
+  width: 100vw;
+  height: 200px;
+
+  margin: 0 -20px;
+
+  background-size: cover;
+  background-image: url("./images/filler-parallax.jpg");
+  background-attachment: fixed;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

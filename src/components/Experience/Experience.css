@@ -1,0 +1,36 @@
+.exp-container {
+  font-family: var(--subheader-font);
+
+}
+
+/* .exp-header {
+  text-align: center;
+  font-size: 8vw;
+  line-height: 11vw;
+  letter-spacing: -5px;
+
+  margin: 0 0 40px 0;
+  padding: 10px;
+} */
+
+.exp-preview {
+  border-radius: 2px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+
+  color: var(--main-font-color);
+}
+
+.vertical-timeline-element-date {
+  text-align: center;
+}
+
+.exp-prev-header {
+  font-style: normal;
+  text-align: center;
+}
+
+.exp-prev-period {
+  font-style: italic;
+  opacity: 0.5;
+}
