@@ -25,37 +25,41 @@
 }
 
 body {
+  display: flex;
+
   color: var(--main-font-color);
   background-color: var(--main-bg-color);
 
   overflow-x: hidden;
 }
 
-.paragraph {
-  padding: 0 5vw 25vw 5vw;
-}
+@media (max-width: 768px) {
+  .paragraph {
+    padding: 25vw 5vw 25vw 5vw;
+  }
 
-.title {
-  font-family: var(--subheader-font);
+  .title {
+    font-family: var(--subheader-font);
 
-  font-size: 9vw;
-  font-weight: 700;
-  text-align: center;
-  line-height: 12vw;
+    font-size: 9vw;
+    font-weight: 700;
+    text-align: center;
+    line-height: 12vw;
 
-  padding: 0;
-  margin: 0 0 10vw 0;
-}
+    padding: 0;
+    margin: 0 0 10vw 0;
+  }
 
-.filler {
-  width: 100vw;
-  height: 200px;
+  .filler {
+    width: 100vw;
+    height: 200px;
 
-  margin: 0 -20px;
+    margin: 0 -20px;
 
-  background-size: cover;
-  background-image: url("./images/filler-parallax.jpg");
-  background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./images/filler-parallax.jpg");
+    background-attachment: fixed;
+  }
 }
 
 @keyframes fade-in {

@@ -4,7 +4,6 @@ import "./About.css";
 
 function About() {
 
-
   return (
     <section className="about-container paragraph" id="about">
       <header className="about-header title">

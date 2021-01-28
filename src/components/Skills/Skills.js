@@ -7,14 +7,14 @@ function Skills() {
       return (
         <div className="skills-prev" key={index}>
           <h2 className="skills-prev-title">{item.title}</h2>
-          {printContent(item.content)}
+          {printSkillContent(item.content)}
         </div>
       );
     });
     return data;
   };
 
-  const printContent = (content) => {
+  const printSkillContent = (content) => {
     const data = content.map((skill, i) => {
       return (
         <div key={i} className="skills-prev-content">
