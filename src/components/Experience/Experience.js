@@ -10,17 +10,13 @@ import "./Experience.css";
 import "aos/dist/aos.css";
 import "react-vertical-timeline-component/style.min.css";
 
-function Experience({ reference }) {
+function Experience() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
 
   return (
-    <section
-      ref={reference}
-      className="exp-container paragraph"
-      id="experience"
-    >
+    <section className="exp-container paragraph" id="experience">
       <div className="exp-header title">
         <h2>EDUCATION</h2>
         <h2>&</h2>
@@ -31,7 +27,7 @@ function Experience({ reference }) {
           return (
             <VerticalTimelineElement
               key={index}
-              className="vertical-timeline-element"
+              className="vertical-timeline-element--work vertical-timeline-element"
               contentStyle={{
                 background: "var(--lighter-bg)",
                 color: "var(--main-bg-color)",

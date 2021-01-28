@@ -24,13 +24,13 @@
   padding: 0;
 }
 
-body {
-  display: flex;
+html, body {
+  overflow-x:hidden 
+} 
 
+body {
   color: var(--main-font-color);
   background-color: var(--main-bg-color);
-
-  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -43,7 +43,7 @@ body {
 
     font-size: 9vw;
     font-weight: 700;
-    text-align: center;
+
     line-height: 12vw;
 
     padding: 0;
