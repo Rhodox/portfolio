@@ -8,13 +8,14 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 
 import NavMobile from "./components/Navbar/Mobile/NavMobile";
+import NavDesktop from "./components/Navbar/Desktop/NavDesktop";
 
 import "./style.css";
 
 function App() {
   return (
     <>
-      {/* <NavDesktop /> Fix mobile navbar first */}
+      <NavDesktop />
       <NavMobile />
       <Title />
       <About />

@@ -1,3 +1,26 @@
+@media (min-width: 768px) {
+  .contact-header {
+    font-size: 2vw;
+
+    font-family: var(--paragraph-font);
+    text-align: center;
+    padding-top: 20px;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+    background-color: var(--darker-bg);
+  }
+
+  .links-box {
+    font-size: 5vw;
+
+    margin: 20px;
+  }
+}
 @media (max-width: 768px) {
   .contact-header {
     font-size: 5vw;

@@ -2,7 +2,7 @@ import "./Skills.css";
 import { SkillData } from "./skillData";
 
 function Skills() {
-  const printSkillTitle = () => {
+  const printSkills = () => {
     const data = SkillData.map((item, index) => {
       return (
         <div className="skills-prev" key={index}>
@@ -29,7 +29,9 @@ function Skills() {
   return (
     <section className="skills-container paragraph" id="skills">
       <h1 className="skills-header title">SKILLS</h1>
-      {printSkillTitle()}
+      <div className="skills-prev-container">
+      {printSkills()}
+      </div>
     </section>
   );
 }

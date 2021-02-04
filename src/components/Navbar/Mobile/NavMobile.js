@@ -45,11 +45,11 @@ function NavMobile() {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar-mobile">
         <div className="sidebar-toggle">
           <RiIcons.RiMenu2Line onClick={toggleMenu} />
         </div>
-        <div className={navText ? "navbar-name visible" : "navbar-name"}>
+        <div className={navText ? "navbar-mobile-name visible" : "navbar-mobile-name"}>
           Alexander Sandberg
         </div>
       </div>

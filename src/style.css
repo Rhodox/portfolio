@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,900;1,300;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
 
+/* Do I wanna use this font instead? */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 :root {
   --main-font: "Charmonman", cursive;
   --subheader-font: "Chivo", sans-serif;
@@ -9,12 +12,16 @@
 
   --main-font-color: #f0dab3;
   --main-bg-color: #06090c;
+  --light-bg-color: #10161d;
   --main-detail-color: #202d36;
 
   --lighter-bg: #fffdf9;
   --darker-bg: #020203;
 
-  --test: 1px solid red;
+  --nav-hover: #111111;
+  --nav-active: #3f3930;
+
+  --test: 1px solid;
 
   --article-bg-alt1: #161f2a;
 }
@@ -33,9 +40,31 @@ body {
   background-color: var(--main-bg-color);
 }
 
+@media (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+  
+  .title {
+    font-family: var(--subheader-font);
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: center;
+
+    line-height: 1.2em;
+
+    padding: 0;
+    margin: 10vw 0 5vw 0;
+  }
+}
+
 @media (max-width: 768px) {
   .paragraph {
     padding: 25vw 5vw 25vw 5vw;
+  }
+
+  .navbar-desktop {
+    display: none;
   }
 
   .title {

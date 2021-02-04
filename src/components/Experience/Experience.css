@@ -1,3 +1,15 @@
+@media (min-width: 768px) {
+  .exp-container {
+  }
+  .exp-header {
+  }
+  .exp-prev-container {
+  }
+  .vertical-timeline-element-date {
+    color: white;
+    font-family: var(--subheader-font);
+  }
+}
 @media (max-width: 768px) {
   .exp-container {
     font-family: var(--subheader-font);

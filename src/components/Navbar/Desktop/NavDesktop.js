@@ -1,46 +1,29 @@
-import { useState } from 'react';
-import './NavDesktop.css';
+import { Link } from "react-scroll";
+import { SidebarData } from "../navData.js";
+import "./NavDesktop.css";
 
 function Navbar() {
-  const [navbar, setNavbar] = useState(false);
-
-  const changeBackground = () => {
-    if (window.scrollY >= 200) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+  const printSidebarData = () => {
+    const data = SidebarData.map((item, index) => {
+      return (
+        <Link
+          key={index}
+          className="nav-item-desktop"
+          activeClass="active"
+          to={item.to}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          {item.title}
+        </Link>
+      );
+    });
+    return data;
   };
 
-  window.addEventListener('scroll', changeBackground);
-
-  return (
-    <nav className={navbar ? 'navbar active' : 'navbar'}>
-      <div className="navbar-name">
-        <p className={navbar ? 'visible' : ''}>Alexander Sandberg</p>
-      </div>
-      <div className="navbar-items">
-        <ul>
-          <a href="#about">
-            <li>About</li>
-          </a>
-          <a href="#projects">
-            <li>Projects</li>
-          </a>
-          <a href="#contact">
-            <li>Skills</li>
-          </a>
-          <a href="#experience">
-            <li>Experience</li>
-          </a>
-          <a href="#contact">
-            <li>Contact</li>
-          </a>
-          
-        </ul>
-      </div>
-    </nav>
-  );
+  return <nav className="navbar-desktop">{printSidebarData()}</nav>;
 }
 
 export default Navbar;

@@ -29,13 +29,12 @@ function Proj() {
               contentArrowStyle={{
                 borderRight: "7px solid  var(--lighter-bg)",
               }}
-              date={item.period}
+              date={item.date}
               dateClassName="vertical-timeline-element-date"
               iconStyle={{ background: "var(--main-bg-color)", color: "#fff" }}
               icon={item.icon}
             >
               <h2 className="proj-prev-header">{item.title}</h2>
-              <h3 className="proj-prev-date">{item.date}</h3>
               <p>[IMAGE]</p>
               <p className="proj-prev-description">{item.description}</p>
               <h3 className="proj-prev-tech-header">Tech used</h3>

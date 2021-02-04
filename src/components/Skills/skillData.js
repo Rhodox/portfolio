@@ -103,6 +103,10 @@ export const SkillData = [
         name: "TDD",
         icon: null,
       },
+      {
+        name: "Autodesk Revit",
+        icon: null,
+      },
     ],
   },
 ];

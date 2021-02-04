@@ -31,6 +31,7 @@ function Experience() {
               contentStyle={{
                 background: "var(--lighter-bg)",
                 color: "var(--main-bg-color)",
+                borderTop: "solid 10px #243E59"
               }}
               contentArrowStyle={{
                 borderRight: "7px solid  var(--lighter-bg)",

@@ -1,9 +1,9 @@
 import { React } from "react";
 import "./Title.css";
 
-function Title( {reference} ) {
+function Title() {
   return (
-    <div ref={reference} className="title-container" id="title">
+    <div className="title-container" id="title">
       <div className="title-text">
         <div className="title-header">
           <h1>Alexander Sandberg</h1>

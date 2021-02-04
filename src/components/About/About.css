@@ -1,3 +1,36 @@
+@media (min-width: 768px) {
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-picture {
+    width: 350px;
+    margin-right: 40px;
+  }
+
+  .about-text-container {
+    width: 500px;
+  }
+  
+  .about-title {
+    font-size: 2.5em;
+  }
+
+  .about-container span {
+    font-style: italic;
+  }
+
+  .about-para {
+    font-size: 1.2em;
+  }
+
+  .about-para p {
+    margin: 20px 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .about-container {
     font-family: var(--subheader-font);
@@ -18,7 +51,6 @@
 
   .about-text-container {
     font-size: 1.2em;
-
     border-radius: 4px;
   }
 
@@ -35,11 +67,6 @@
     font-weight: 400;
     font-size: 2.5em;
     font-weight: 700;
-  }
-
-  .end-fjong {
-    text-align: center;
-    opacity: 0.5;
   }
 
   .about-container span {
