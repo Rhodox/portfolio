@@ -66,6 +66,8 @@
     align-self: center;
     text-align: center;
 
+    margin-left: 8vw;
+
     font-size: 5vw;
     font-family: var(--main-font);
 
