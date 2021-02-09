@@ -78,17 +78,6 @@ body {
     padding: 0;
     margin: 0 0 10vw 0;
   }
-
-  .filler {
-    width: 100vw;
-    height: 200px;
-
-    margin: 0 -20px;
-
-    background-size: cover;
-    background-image: url("./images/filler-parallax.jpg");
-    background-attachment: fixed;
-  }
 }
 
 @keyframes fade-in {

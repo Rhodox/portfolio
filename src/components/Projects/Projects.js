@@ -35,7 +35,7 @@ function Proj() {
               icon={item.icon}
             >
               <h2 className="proj-prev-header">{item.title}</h2>
-              <p>[IMAGE]</p>
+              <img className="proj-prev-image" src={item.imgPreview} />
               <p className="proj-prev-description">{item.description}</p>
               <h3 className="proj-prev-tech-header">Tech used</h3>
               <p className="proj-prev-tech">{item.techUsed}</p>
