@@ -24,23 +24,19 @@ function About() {
 
           <div className="about-para">
             <p>
-              A <span>calm</span>, driven and well-organized{" "}
-              <span>full-stack developer</span> who is currently based in
-              Stockholm, Sweden.
+              A calm, driven and well-organized full-stack developer who is
+              currently based in Stockholm, Sweden.
             </p>
             <p>
-              I enjoy <span>collaborating</span> with others,{" "}
-              <span>solving complex problems</span> and learning new things. I
-              have a solid <span>background in</span> <span>programming</span>,
-              computer science and BIM engineering, and I’m{" "}
-              <span>enthusiastic for</span>
-              <span> full-stack development</span>, <span>GUI</span> and{" "}
-              <span>music</span>.
+              I enjoy collaborating with others, solving complex problems and
+              learning new things. I have a solid background in programming,
+              computer science and BIM engineering, and I’m enthusiastic for
+              full-stack development, GUI and music.
             </p>
             <p>
-              Recent graduate from <span>School of Applied Technology</span>'s
-              bootcamp, which covered <span>three months</span> of intensive
-              <span> full-stack JavaScript</span> development.
+              Recent graduate from School of Applied Technology's bootcamp,
+              which covered three months of intensive full-stack JavaScript
+              development.
             </p>
           </div>
         </article>

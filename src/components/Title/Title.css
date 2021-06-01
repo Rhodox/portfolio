@@ -1,5 +1,14 @@
+.title-container {
+  background: url("../../images/alexander.jpg"), #0000007a;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
 @media (min-width: 768px) {
   .title-container {
+    position: relative;
     height: 105vh;
     width: 80vw;
     z-index: -10;
@@ -14,11 +23,7 @@
 
     justify-content: center;
     font-family: var(--main-font);
-    font-size: 2.8em;
-
-    background-position: center;
-    background-size: cover;
-    background-image: url("../../images/alexander.jpg");
+    font-size: 4vw;
   }
 
   .title-header {
@@ -29,11 +34,11 @@
 
   .title-subheader {
     font-family: var(--subheader-font);
-    font-size: 2.8vw;
+    font-size: 3vw;
     font-weight: 700;
     line-height: 0.8em;
 
-    transform: translate(20%, -120%);
+    transform: translate(25%, -150%);
   }
   .title-subheader h4 {
     font-weight: 100;
@@ -45,6 +50,14 @@
   .title-subheader h4:nth-child(3) {
     margin: 0 40%;
   }
+  .bottom-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+
+    background-image: linear-gradient(to bottom, #ff000000, #06090c);
+  }
 }
 
 @media (max-width: 768px) {
@@ -55,11 +68,6 @@
 
     height: 105vh;
     width: 100vw;
-
-    background-position: center;
-    background-size: cover;
-    background-image: url("../../images/testImage.jpg");
-    background-attachment: fixed;
   }
 
   .title-text {

@@ -12,6 +12,7 @@ function Title() {
           <h4>Full-stack JavaScript Developer</h4>
         </div>
       </div>
+      <div className="bottom-gradient"></div>
     </div>
   );
 }
