@@ -21,7 +21,7 @@ export const ProjectData = [
     date: "Dec 2020",
     imgPreview: medHubScreenshot,
     description:
-      "A proof-of-concept, simple, general health app which helps users plan out their day, stay in touch with their medical experts, as well get help for personal medical and mental health needs.",
+      "A proof-of-concep, general health app which helps users plan out their day, stay in touch with their medical experts, as well as get help for personal medical and mental health needs.",
     techUsed: "ReactJS, MongoDB, Express, bCrypt, socket.io",
     gHub: "https://github.com/SebastienKronlund/SALT-Final-Project",
     icon: <IoIcons.IoMdMedical />,

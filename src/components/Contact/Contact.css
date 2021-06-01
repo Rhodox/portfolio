@@ -15,11 +15,18 @@
     background-color: var(--darker-bg);
     color: whitesmoke;
   }
-
   .links-box {
     font-size: 5vw;
-
     margin: 20px;
+  }
+  .links-box a {
+    color: whitesmoke;
+  }
+  .links-box a:hover {
+    color: #272727;
+  }
+  .links-box a:active :visited {
+    color: whitesmoke;
   }
 }
 @media (max-width: 768px) {
