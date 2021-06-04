@@ -23,7 +23,8 @@
     color: whitesmoke;
   }
   .links-box a:hover {
-    color: #272727;
+    color: green;
+    transform: scaleX(1.5);
   }
   .links-box a:active :visited {
     color: whitesmoke;
