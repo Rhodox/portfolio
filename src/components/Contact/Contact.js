@@ -18,7 +18,7 @@ function Contact() {
           <a href="https://linkedin.com/in/alexander-sandberg">
             <RiIcons.RiLinkedinBoxFill />
           </a>
-          <a href="mailto:alexander.sandberg@appliedtechnology.se">
+          <a href="mailto:rhodox.sandberg@gmail.com">
             <RiIcons.RiMailLine />
           </a>
         </div>
